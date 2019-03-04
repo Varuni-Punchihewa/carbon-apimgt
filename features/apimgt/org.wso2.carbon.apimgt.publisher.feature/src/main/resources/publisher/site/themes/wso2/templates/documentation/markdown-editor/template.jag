@@ -35,7 +35,15 @@
                 </div>
 
                 <div class="col-md-8" id="outerDiv">
-                    <div data-ng-controller="editorCtrl" style="height: 100%">
+                <div data-ng-controller="editorCtrl" style="height: 100%">
+
+                <ul class="nav nav-tabs tabs" style="background-color: lightskyblue; margin-right: 10px;">
+                <li style="width: 44.10%; color: #064973; float: left; height: 40px; text-align: left; font-size: 18px;
+                font-weight: 400; background-color: darkgrey">Editor</li>
+                <li style="width: 53.9%; color: #064973; float: left; height: 40px; margin-right: 10px; margin-left: 10px; text-align: left;
+                font-size: 18px; font-weight: 400; background-color: #2ca02c">Preview</li>
+
+                </ul>
                         <div id="editor-wrapper" class="container" style="padding-left: 0px; padding-right: 0px;">
                             <textarea id="editor" data-ng-model="text" style="height: 500px;"></textarea>
                             <div id="preview" markdown-to-html="text" style="height: 500px;"></div>
